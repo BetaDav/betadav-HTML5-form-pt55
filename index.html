@@ -27,8 +27,11 @@
                         <input type="number" class="form-control" id="inputSecurityCode" placeholder="0000">
                     </div>
                     <div class="col-md-3">
-                        <label for="inputAmount" class="form-label fw-bold">Amount</label>
-                        <input type="number" class="form-control" id="inputAmount">
+                        <label for="inputAmount" class="form-label fw-bold">Amount</label><br>
+                        <div class="d-flex">
+                            <label for="inputAmount"><i class="fa-solid fa-dollar-sign"></i></label>
+                            <input type="number" class="form-control" id="inputAmount">
+                        </div>
                     </div>
                     <div class="col-6">
                         <label for="inputFirstName" class="form-label fw-bold">First Name</label>
@@ -55,7 +58,7 @@
                     </div>
                     <div class="col-5">
                         <p class="fw-bold">We accept:</p>
-                        <div class="bg-secondary w-50 ps-2 rounded">
+                        <div class="bg-secondary w-50 ps-2 rounded text-light">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" name="radioCheck" type="radio" id="inlineRadio1"
                                     value="option1">
@@ -91,7 +94,7 @@
             </div>
             <div class="card-footer d-flex justify-content-end">
                 <button type="submit" class="btn btn-secondary">Cancel</button>
-                <button type="submit" class="btn btn-primary">Sent</button>
+                <button type="submit" class="btn btn-primary ms-1">Send</button>
             </div>
         </div>
     </div>
